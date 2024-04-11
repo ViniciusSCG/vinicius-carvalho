@@ -68,4 +68,8 @@
 
 .subtitle {
   @apply text-muted-foreground text-lg mb-8 font-light;
-}	
+}
+
+.section-title{
+  @apply text-4xl w-max flex relative justify-between gap-x-3 xl:text-[48px] xl:leading-[56px] tracking-[-1px] font-bold;
+}
