@@ -14,9 +14,9 @@ const ThemeToggler = () => {
         onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
       >
         {theme === "dark" ? (
-          <SunIcon className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 " />
+          <SunIcon className="h-auto w-auto rotate-0 scale-100 transition-all dark:-rotate-90 " />
         ) : (
-          <MoonIcon className="absolute h-[1.2rem] w-[1.2rem] transition-all dark:rotate-0 " />
+          <MoonIcon className="absolute h-auto w-auto transition-all dark:rotate-0 " />
         )}
       </Button>
     </div>
