@@ -49,6 +49,7 @@ const Hero = () => {
           <div className="hidden xl:flex relative">
             <DevImg />
           </div>
+          <RiArrowDownSLine className="text-3xl absolute bottom-4 left-1/2 transform -translate-x-1/2 text-primary dark:text-primary-dark animate-bounce" />
         </div>
       </div>
     </section>
