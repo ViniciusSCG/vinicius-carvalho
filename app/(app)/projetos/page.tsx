@@ -6,7 +6,7 @@ import ProjectCard from "@/components/ProjectCard";
 const projectsData = [
   {
     image: "/projects/1.png",
-    category: "",
+    category: "Projeto Real",
     name: "Aplicativo IPVO Igreja Presbiteriana Vila Operária",
     description:
       "Tecnologias: React Native, Expo, TypeScript, Java, Spring Boot, SQLServer",
@@ -15,7 +15,7 @@ const projectsData = [
   },
   {
     image: "/projects/7.jpeg",
-    category: "",
+    category: "Projeto Real",
     name: "Aplicativo StudentCare",
     description:
       "Tecnologias: React Native, Expo, TypeScript, Java, Spring Boot, SQLServer",
@@ -24,7 +24,7 @@ const projectsData = [
   },
   {
     image: "/projects/2.png",
-    category: "",
+    category: "Projeto Real",
     name: "ChatGPTeacher",
     description:
       "Tecnologias: Next.js, Tailwind CSS, TypeScript, Java, Spring Boot, SQLServer, ChatGPT API",
@@ -33,7 +33,7 @@ const projectsData = [
   },
   {
     image: "/projects/8.png",
-    category: "",
+    category: "Projeto Real",
     name: "SmartSkills",
     description:
       "Tecnologias: Next.js, Tailwind CSS, TypeScript, Java, Spring Boot, SQLServer",
@@ -42,7 +42,7 @@ const projectsData = [
   },
   {
     image: "/projects/3.png",
-    category: "",
+    category: "Projeto Real",
     name: "Inova Carreiras",
     description:
       "Tecnologias: Next.js, Tailwind CSS, TypeScript, Java, Spring Boot, SQLServer",
@@ -51,7 +51,7 @@ const projectsData = [
   },
   {
     image: "/projects/4.png",
-    category: "",
+    category: "Projeto Real",
     name: "StudentCare",
     description:
       "Tecnologias: Next.js, Tailwind CSS, TypeScript, Java, Spring Boot, SQLServer, ChatGPT API, Machine Learning, Power BI",
@@ -60,7 +60,7 @@ const projectsData = [
   },
   {
     image: "/projects/5.png",
-    category: "",
+    category: "Projeto Real",
     name: "IPVO Web CRUD",
     description:
       "Tecnologias: Next.js, Tailwind CSS, TypeScript, Java, Spring Boot, SQLServer",
@@ -69,12 +69,70 @@ const projectsData = [
   },
   {
     image: "/projects/6.png",
-    category: "",
+    category: "Projeto Real",
     name: "Farol Observatório da Aprendizagem da Rede Municipal de Natal-RN",
     description:
       "Tecnologias: Next.js, Tailwind CSS, TypeScript, Node.js, Prisma, SQLServer, Power BI",
     link: "https://viitra.lexp.com.br/",
     github: "",
+  },
+  {
+    image: "/my-projects/1.png",
+    category: "Projeto Pesoal",
+    name: "Quiz Milhão",
+    description: "PHP, JavaScript, HTML, CSS, MySQL",
+    link: "",
+    github: "https://github.com/ViniciusSCG/QuizMilhao",
+  },
+  {
+    image: "/my-projects/2.png",
+    category: "Projeto Pesoal",
+    name: "Be The Hero",
+    description: "Node.js, React, React Native, Expo",
+    link: "",
+    github: "https://github.com/ViniciusSCG/BeTheHero",
+  },
+  {
+    image: "/my-projects/3.png",
+    category: "Projeto Pesoal",
+    name: "Gerador de Senhas",
+    description: "JavaScript, HTML, CSS",
+    link: "https://viniciusscg.github.io/GeradorSenha/",
+    github: "https://github.com/ViniciusSCG/GeradorSenha",
+  },
+  {
+    image: "/my-projects/4.jpg",
+    category: "Projeto Pesoal",
+    name: "Doe Sangue",
+    description:
+      "JavaScript, HTML, CSS, PostgreSQL, Node.js, Express, Nunjucks, Nodemon",
+    link: "https://viniciusscg.github.io/MaratonaDev/",
+    github: "https://github.com/ViniciusSCG/MaratonaDev",
+  },
+  {
+    image: "/my-projects/5.png",
+    category: "Projeto Pesoal",
+    name: "Snake Game",
+    description: "JavaScript, HTML, CSS",
+    link: "https://viniciusscg.github.io/Snake-Game/",
+    github: "https://github.com/ViniciusSCG/Snake-Game",
+  },
+  {
+    image: "/my-projects/6.png",
+    category: "Projeto Pesoal",
+    name: "Instagram Home Clone",
+    description: "HTML, CSS",
+    link: "https://viniciusscg.github.io/PaginaInicialInstagram/",
+    github: "https://github.com/ViniciusSCG/PaginaInicialInstagram",
+  },
+  {
+    image: "/my-projects/preview.gif",
+    category: "Projeto Pesoal",
+    name: "RGB-BREAKOUT-SDL",
+    description: "C++, SDL2, SDL2_image, SDL2_ttf, SDL2_mixer, Makefile",
+    link: "",
+    github:
+      "https://github.com/ViniciusSCG/RGB-BREAKOUT-SDL/blob/master/preview.gif",
   },
 ];
 

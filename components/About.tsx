@@ -9,9 +9,14 @@ import {
   Calendar,
   Briefcase,
 } from "lucide-react";
+import { SiOracle } from "react-icons/si";
+import { BsMicrosoft } from "react-icons/bs";
+
+import { PiCertificate } from "react-icons/pi";
 import Image from "next/image";
 import { text } from "stream/consumers";
 import DevImg from "./DevImg";
+import Link from "next/link";
 
 const infoData = [
   {
@@ -176,10 +181,36 @@ const About = () => {
                       })}
                     </div>
                     <div className="flex flex-col gap-y-2">
-                      <div className="text-primary">Certificações</div>
+                      <div className="text-primary flex gap-2 items-center">
+                        <PiCertificate size={22} />
+                        Certificações
+                      </div>
                       <div className="border-b border-border"></div>
-                      <div>Microsoft 365 Certified: Fundamentals MS-900</div>
-                      <div>Oracle Cloud Infrastructure Foundations</div>
+                      <div className="flex items-center gap-x-2">
+                        <BsMicrosoft className="text-primary" size={20} />
+                        <Link
+                          href={
+                            "https://www.credly.com/badges/1bc2f0cb-8bd1-4cb2-8c54-654a527c2752/linked_in_profile"
+                          }
+                          target="blank"
+                          className="hover:text-primary cursor-pointer transition-all duration-200 hover:underline"
+                        >
+                          Microsoft 365 Certified: Fundamentals MS-900
+                        </Link>
+                      </div>
+
+                      <div className="flex items-center gap-x-2">
+                        <SiOracle className="text-primary" size={20} />
+                        <Link
+                          href={
+                            "https://catalog-education.oracle.com/pls/certview/sharebadge?id=7A8D49E0C62369634DE707A7D95D69F904EA42B8AE3F682F86B7F12A65FF34AA"
+                          }
+                          target="blank"
+                          className="hover:text-primary cursor-pointer transition-all duration-200 hover:underline"
+                        >
+                          Oracle Cloud Infrastructure Foundations
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </TabsContent>
