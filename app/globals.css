@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-
   @layer base {
     :root {
       --background: 0 0% 100%;
@@ -27,7 +26,7 @@
       --ring: 346.8 77.2% 49.8%;
       --radius: 0.5rem;
     }
-  
+
     .dark {
       --background: 20 14.3% 4.1%;
       --foreground: 0 0% 95%;
@@ -50,7 +49,6 @@
       --ring: 346.8 77.2% 49.8%;
     }
   }
-  
 }
 
 @layer base {
@@ -62,7 +60,7 @@
   }
 }
 
-.h1{
+.h1 {
   @apply text-5xl xl:text-[72px] xl:leading-[80px] tracking-[-2px] font-bold;
 }
 
@@ -70,6 +68,6 @@
   @apply text-muted-foreground text-lg mb-8 font-light;
 }
 
-.section-title{
+.section-title {
   @apply text-4xl w-max flex relative justify-between gap-x-3 xl:text-[48px] xl:leading-[56px] tracking-[-1px] font-bold;
 }

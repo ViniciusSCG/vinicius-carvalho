@@ -127,7 +127,7 @@ const About = () => {
   };
   return (
     <section className="xl:h-[860px] pb-12 xl:py-24">
-      <div className="container mx-auto">
+      <div id="about" className="container mx-auto">
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
           Sobre Mim
         </h2>
@@ -139,16 +139,16 @@ const About = () => {
           <div className="flex-1">
             <Tabs defaultValue="personal">
               <TabsList className="w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none ">
-                <TabsTrigger className="w-[162px] xl:w-auto" value="personal">
+                <TabsTrigger className="w-[330px] xl:w-auto" value="personal">
                   Informações Pessoais
                 </TabsTrigger>
                 <TabsTrigger
-                  className="w-[162px] xl:w-auto"
+                  className="w-[330px] xl:w-auto"
                   value="qualifications"
                 >
                   Qualificações
                 </TabsTrigger>
-                <TabsTrigger className="w-[162px] xl:w-auto" value="skills">
+                <TabsTrigger className="w-[330px] xl:w-auto" value="skills">
                   Skills
                 </TabsTrigger>
               </TabsList>
