@@ -3,6 +3,7 @@
 import Image from "next/image";
 import BackgrounImage from "/img/background-login.jpg";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function AuthLayout({
   children,
@@ -13,6 +14,7 @@ export default function AuthLayout({
     <>
       <Header />
       {children}
+      <Footer />
     </>
   );
 }

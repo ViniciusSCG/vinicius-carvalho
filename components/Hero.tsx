@@ -1,20 +1,14 @@
 "use client";
 
+import { Download, Send } from "lucide-react";
 import { Link as LinkScroll } from "react-scroll";
 import { Button } from "./ui/button";
-import { Download, Send } from "lucide-react";
 
-import {
-  RiBriefcase4Fill,
-  RiTeamFill,
-  RiTodoFill,
-  RiArrowDownSLine,
-} from "react-icons/ri";
+import { RiArrowDownSLine } from "react-icons/ri";
 
-import DevImg from "./DevImg";
-import Badge from "./Badge";
-import Socials from "./Socials";
 import Link from "next/link";
+import DevImg from "./DevImg";
+import Socials from "./Socials";
 
 const Hero = () => {
   return (
@@ -26,9 +20,9 @@ const Hero = () => {
               Olá, eu sou Vinícius Carvalho
             </h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Eu sou um desenvolvedor full-stack especializado em React e
-              Node.js. Eu adoro criar aplicações web e mobile incríveis e
-              eficientes.
+              Eu sou um desenvolvedor full-stack especializado em ReactJS,
+              NextJS, Java e Node.js. Eu adoro criar aplicações web e mobile
+              incríveis e eficientes.
             </p>
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
               <Link href="mailto:vinicarvalho23@gmail.com">
@@ -51,7 +45,11 @@ const Hero = () => {
             />
           </div>
           <div className="hidden xl:flex relative">
-            <DevImg />
+            <DevImg
+              containerStyles="w-[410px] h-[462px] bg-no-repeat relative bg-bottom"
+              src="/devImgNew1.jpg"
+              alt="develop image"
+            />
           </div>
         </div>
         <LinkScroll to="about" smooth={true} duration={500}>

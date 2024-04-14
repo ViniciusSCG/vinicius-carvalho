@@ -133,7 +133,11 @@ const About = () => {
         </h2>
         <div className="flex flex-col xl:flex-row">
           <div className="hidden xl:flex flex-1 relative">
-            <DevImg />
+            <DevImg
+              containerStyles="w-[410px] h-[462px] bg-no-repeat relative bg-bottom"
+              src="/aboutImg.jpg"
+              alt="About Developer Image"
+            />
           </div>
 
           <div className="flex-1">
@@ -159,13 +163,15 @@ const About = () => {
                       Olá, eu sou Vinícius Carvalho
                     </h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      Eu sou um desenvolvedor full-stack especializado em React,
-                      Node.js, TypeScript, Java, Spring Boot e SQLServer. Tenho
-                      experiência em criar aplicações móveis com React Native e
-                      Expo, desenvolver interfaces com Tailwind CSS, e trabalhar
-                      com APIs. Meus projetos incluem aplicações web e mobile,
-                      sistemas de análise preditivas na área da educação,
-                      sistemas de gerenciamento e observatórios de aprendizagem.
+                      Eu sou um desenvolvedor full-stack especializado em
+                      ReactJS, NextJS, Java e Node.js. Eu adoro criar aplicações
+                      web e mobile incríveis e eficientes.
+                    </p>
+                    <p className="subtitle max-w-xl mx-auto xl:mx-0">
+                      Durante o Dia eu sou um Desenvolvedor FullStack na LEXP, e
+                      durante a noite e os finais de semana eu sou um estudante
+                      que estuda as tendencias do mercado de tecnologia e me
+                      ocupo pensando em algum projeto pessoal.
                     </p>
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
                       {infoData.map((item, index) => {

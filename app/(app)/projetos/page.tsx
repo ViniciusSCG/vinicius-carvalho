@@ -80,7 +80,7 @@ const projectsData = [
     image: "/my-projects/1.png",
     category: "Projeto Pesoal",
     name: "Quiz Milhão",
-    description: "PHP, JavaScript, HTML, CSS, MySQL",
+    description: "Tecnologias: PHP, JavaScript, HTML, CSS, MySQL",
     link: "",
     github: "https://github.com/ViniciusSCG/QuizMilhao",
   },
@@ -88,7 +88,7 @@ const projectsData = [
     image: "/my-projects/2.png",
     category: "Projeto Pesoal",
     name: "Be The Hero",
-    description: "Node.js, React, React Native, Expo",
+    description: "Tecnologias: Node.js, React, React Native, Expo",
     link: "",
     github: "https://github.com/ViniciusSCG/BeTheHero",
   },
@@ -96,7 +96,7 @@ const projectsData = [
     image: "/my-projects/3.png",
     category: "Projeto Pesoal",
     name: "Gerador de Senhas",
-    description: "JavaScript, HTML, CSS",
+    description: "Tecnologias: JavaScript, HTML, CSS",
     link: "https://viniciusscg.github.io/GeradorSenha/",
     github: "https://github.com/ViniciusSCG/GeradorSenha",
   },
@@ -105,7 +105,7 @@ const projectsData = [
     category: "Projeto Pesoal",
     name: "Doe Sangue",
     description:
-      "JavaScript, HTML, CSS, PostgreSQL, Node.js, Express, Nunjucks, Nodemon",
+      "Tecnologias: JavaScript, HTML, CSS, PostgreSQL, Node.js, Express, Nunjucks, Nodemon",
     link: "https://viniciusscg.github.io/MaratonaDev/",
     github: "https://github.com/ViniciusSCG/MaratonaDev",
   },
@@ -113,7 +113,7 @@ const projectsData = [
     image: "/my-projects/5.png",
     category: "Projeto Pesoal",
     name: "Snake Game",
-    description: "JavaScript, HTML, CSS",
+    description: "Tecnologias: JavaScript, HTML, CSS",
     link: "https://viniciusscg.github.io/Snake-Game/",
     github: "https://github.com/ViniciusSCG/Snake-Game",
   },
@@ -121,7 +121,7 @@ const projectsData = [
     image: "/my-projects/6.png",
     category: "Projeto Pesoal",
     name: "Instagram Home Clone",
-    description: "HTML, CSS",
+    description: "Tecnologias: HTML, CSS",
     link: "https://viniciusscg.github.io/PaginaInicialInstagram/",
     github: "https://github.com/ViniciusSCG/PaginaInicialInstagram",
   },
@@ -129,7 +129,8 @@ const projectsData = [
     image: "/my-projects/preview.gif",
     category: "Projeto Pesoal",
     name: "RGB-BREAKOUT-SDL",
-    description: "C++, SDL2, SDL2_image, SDL2_ttf, SDL2_mixer, Makefile",
+    description:
+      "Tecnologias: C++, SDL2, SDL2_image, SDL2_ttf, SDL2_mixer, Makefile",
     link: "",
     github:
       "https://github.com/ViniciusSCG/RGB-BREAKOUT-SDL/blob/master/preview.gif",
@@ -164,7 +165,7 @@ const Projects = () => {
                   onClick={() => setCategory(category)}
                   key={index}
                   value={category}
-                  className="capitalize w-[162px] md:w-auto"
+                  className="capitalize w-[330px] md:w-auto"
                 >
                   {category}
                 </TabsTrigger>
