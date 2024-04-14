@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="pt-br">
       <Head />
       <body>
-        <ThemeProvider attribute="class" defaultTheme="light">
+        <ThemeProvider attribute="class" defaultTheme="dark">
           {children}
         </ThemeProvider>
       </body>
