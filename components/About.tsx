@@ -59,7 +59,7 @@ const skillData = [
       { name: "- TypeScript" },
       { name: "- SQLServer" },
       { name: "- React Native, Expo" },
-      { name: "- Tailwind CSS" },
+      { name: "- Tailwind CSS, Shadcn UI" },
       { name: "- ChatGPT API, Machine Learning, Power BI" },
       { name: "- Node.js, Prisma" },
     ],
@@ -126,7 +126,7 @@ const About = () => {
     return arr.find((item: any) => item.title === title);
   };
   return (
-    <section className="xl:h-[860px] pb-12 xl:py-24">
+    <section className="xl:h-[860px] pb-12 xl:py-24 mb-8">
       <div id="about" className="container mx-auto">
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
           Sobre Mim
@@ -141,10 +141,10 @@ const About = () => {
           </div>
 
           <div className="flex-1">
-            <Tabs defaultValue="personal">
+            <Tabs defaultValue="skills">
               <TabsList className="w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none ">
-                <TabsTrigger className="w-[330px] xl:w-auto" value="personal">
-                  Informações Pessoais
+                <TabsTrigger className="w-[330px] xl:w-auto" value="skills">
+                  Skills
                 </TabsTrigger>
                 <TabsTrigger
                   className="w-[330px] xl:w-auto"
@@ -152,8 +152,8 @@ const About = () => {
                 >
                   Qualificações
                 </TabsTrigger>
-                <TabsTrigger className="w-[330px] xl:w-auto" value="skills">
-                  Skills
+                <TabsTrigger className="w-[330px] xl:w-auto" value="personal">
+                  Informações Pessoais
                 </TabsTrigger>
               </TabsList>
               <div>
@@ -168,10 +168,10 @@ const About = () => {
                       web e mobile incríveis e eficientes.
                     </p>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      Durante o Dia eu sou um Desenvolvedor FullStack na LEXP, e
-                      durante a noite e os finais de semana eu sou um estudante
-                      que estuda as tendencias do mercado de tecnologia e me
-                      ocupo pensando em algum projeto pessoal.
+                      Durante o dia, atuo como Desenvolvedor FullStack na LEXP.
+                      À noite e nos finais de semana, dedico-me a estudar as
+                      tendências do mercado de tecnologia e a desenvolver
+                      projetos pessoais.
                     </p>
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
                       {infoData.map((item, index) => {

@@ -32,7 +32,7 @@ const Hero = () => {
                 </Button>
               </Link>
 
-              <Link href="/resume.pdf">
+              <Link href="/cv.pdf" target="_blank">
                 <Button variant={"secondary"} className="gap-x-2">
                   <Download size={18} />
                   Baixar CV
