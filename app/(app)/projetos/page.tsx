@@ -23,6 +23,15 @@ const projectsData = [
     github: "",
   },
   {
+    image: "/projects/9.png",
+    category: "Projeto Real",
+    name: "QTML",
+    description:
+      "Tecnologias: Next.js, Tailwind CSS, TypeScript, C#, .NET Core",
+    link: "https://www.qmtltour.com",
+    github: "",
+  },
+  {
     image: "/projects/2.png",
     category: "Projeto Real",
     name: "ChatGPTeacher",
